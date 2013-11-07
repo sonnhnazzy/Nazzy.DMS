@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="left|center_vertical"
+        android:textStyle="bold"
+        android:hint="http://dms.nazzy.vn/login/nld"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/btnSAVE"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="Ghi lại" />
+
+    <Button
+        android:id="@+id/btnEXIT"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="Thoát ra" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemRefresh"
+        android:title="Làm mới dữ liệu" />
+    <item
+        android:id="@+id/itemGoBack"
+        android:title="Quay lại trang trước" />
+    <item
+        android:id="@+id/itemGoForward"
+        android:title="Tiến tới trang sau" />
+    <item
+        android:id="@+id/itemConfig"
+        android:title="Cấu hình hệ thống" />
+    <item
+        android:id="@+id/itemExit"
+        android:title="Thoát khỏi hệ thống" />
+</menu>
